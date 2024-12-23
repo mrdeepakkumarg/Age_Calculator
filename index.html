@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="input-area">
+            <input type="date" id="ageInput">
+            <button id="btn" onclick="calculateAge()">Calculate</button>
+        </div>
+
+        <div class="output-area">
+            <div class="output-result">
+                <h2 id="year"></h2>
+                <p class="pg">Year</p>
+            </div>
+            <div class="output-result">
+                <h2 id="month"></h2>
+                <p class="pg">Month</p>
+            </div>
+            <div class="output-result">
+                <h2 id="day"></h2>
+                <p class="pg">Day</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
